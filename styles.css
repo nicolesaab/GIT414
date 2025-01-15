@@ -59,7 +59,13 @@ table {
 /*  GLOBAL STYLES*/
 body {
     display: grid;
+    grid-template-columns: 1fr;
 }
 /* MEDIA QUERY (medium) */
+@media screen (min-width:941px) {
+body {
+    grid-template-column: 1fr 1fr
+}
+}
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
